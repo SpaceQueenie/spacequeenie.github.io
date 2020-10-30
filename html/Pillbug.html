@@ -1,0 +1,395 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    
+   <link href="https://fonts.googleapis.com/css2?family=Bahiana&family=Caesar+Dressing&family=Just+Another+Hand&family=Mansalva&family=Sedgwick+Ave+Display&display=swap" rel="stylesheet">
+<title>Aster the Witch</title>  
+  </head>
+  <body style = "background-image: url(../images/backgroundver2.png)">
+      <div class = "d-flex flex-column justify-content-start">
+          <div class = "d-flex flex-column justify-content-center">
+    <a href = "compendium.html"><div class = "d-flex justify-content-center col-md offset-md-3" style = "padding: 20px; width = auto;">
+            <img src = "../images/AstertheWitch_backlink.svg" width = auto>
+        </div></a></div>
+          <div class = "d-flex flex-column justify-content-center">
+        <div class = "d-flex">
+            <img src = "../images/PillbugWIP.png" height = 100% width = 100%></div>
+              <div class = "d-flex flex-column justify-content-center" style = "margin: 40px">
+              <div class = "d-flex flex-column justify-content-center">
+         <p style="font-family: 'Just Another Hand'; font-size: 50pt; color: black;">The Pillbug</p>
+                </div>
+            <div class = "d-flex flex-column justify-content-center">
+        <p style="font-family: 'Just Another Hand'; font-size: 30pt; color: black;">Resembles the average log when resting and has been thus far easily mistaken for common lumber.</p>
+            </div>
+                  </div>
+     <div class = "d-flex flex-column justify-content-center">
+         <div class = "d-flex flex-column justify-content-center">
+        <div class = "d-flex log-name justify-content-center" style = "font-family: 'Just Another Hand'; font-size: 30pt; color: black; text-decoration: none;"> Research Logs</div>
+        
+          <div class = "d-flex log-date justify-content-center" style = "font-family: 'Just Another Hand'; font-size: 30pt; color: black; text-decoration: none;"> October, 2020 </div>
+         </div>
+            <audio src = "../audio/Pillbug_log1.mp3" id="log">
+            </audio>
+        <div class = "d-flex flex-row justify-content-center">
+     <img src="../images/media-play.svg" height = 32px width = 32px onclick="playPause()" id="play-pause">  
+        
+        <div id="currentTime" style = "font-family: 'Just Another Hand'; font-size: 15pt; color: black; text-decoration: none;"></div>
+<input
+  type="range"
+  id="progress-bar"
+  min="0"
+  max=""
+  value="0"
+  onchange="changeProgressBar()"
+/>
+
+    <div id="durationTime" style = "font-family: 'Just Another Hand'; font-size: 15pt; color: black; text-decoration: none;"></div>
+        <img src = "../images/caret-left.svg" height = 40px width =40px onclick="previousLog()" id="previous-log"> 
+        <img src = "../images/caret-right.svg" height = 40px width = 40px onclick="nextLog()" id="next-log">
+        </div>
+    </div>
+    
+    <p style="font-family: 'Just Another Hand'; font-size: 20pt; color: black;"></p>
+              </div>
+        
+      </div>
+      </div>
+              <div class = "transcript d-flex flex-row justify-content-center align-items-center" style = "margin: 40px">
+
+<div class = "d-flex flex-column justify-content-center flex-nowrap" >
+      <div class = "d-flex justify-content-start" max-width = 900px style = " position: static; max-width = 900px;">
+    <div class="accordion border-dark" id="Monsters">
+    <div class="card border-light bg-transparent" style = "max-width: 900px;">
+    <div class="card-header bg-transparent" id="headingOne" max-width = 900px>
+    <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+     <div class = "d-flex justify-content-start" style="font-family: 'Mansalva'; font-size: 40pt; color: black; text-decoration: none;">Log 1</div>
+     <div class = "d-flex justify-content-start" style="font-family: 'Mansalva'; font-size: 20pt; color: black;">October 19, 2020</div>
+        </button>
+        <div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#Monsters" max-width = 900px>
+             <div class="card-body" max-width = 900px>
+                     <div class = "d-flex flex-column" style="font-family: 'Just Another Hand'; font-size: 30pt; color: black;" >
+To my research fellows,<br><br>
+ 
+I’ve been sent several incidents over the past few days, and after sorting through them all I would like to report that most of them have amounted to anything substantial. Most.<br><br>
+
+One incident, sent to me early this morning, has caught my eye. According to the man who sent me the details, at least one house in the outskirts of the city of Asheville have some sort of problem. For the record, the man who alerted me to this incident doesn’t actually live at the residence in question. His parents do.<br><br>
+
+Their problem is that their supply of collected firewood is rapidly dwindling. They’ll collect some each day and by the next it’ll be gone. This wouldn’t normally seem like a big magical problem, maybe just some teenagers, some nymphs at the worst.<br><br>
+<img src = "../images/compendium.png">
+Except for the fact that, at least according to my source, their firewood is just walking away. <br><br>
+
+I’ve seen pictures of the tracks left behind, tracks I will be inspecting in greater detail after my arrival in town, but I must admit I’m… intrigued. The marks look as if the logs were dragged, but there’s no other footprints in the surrounding area. <br><br>
+
+My initial instinct is to look to a flying creature, but unless we’re very wrong about the habitat of hippogryphs or global warming has destroyed a lot more migratory patterns than we’d previously thought so far, then I know that no flightless creature living in that region has the capability to lift those logs.<br><br>
+
+I should be arriving in town within the next two days. I’ll update you on arrival and findings. <br><br><br><br>
+              </div>
+            </div>
+        </div>
+        </div>
+        </div>
+    <div class="card border-light bg-transparent" style = "max-width: 900px;">
+    <div class="card-header bg-transparent" id="headingOne" max-width = 900px>
+    <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+     <div class = "d-flex justify-content-start" style="font-family: 'Mansalva'; font-size: 40pt; color: black; text-decoration: none;">Log 2</div>
+     <div class = "d-flex justify-content-start" style="font-family: 'Mansalva'; font-size: 20pt; color: black;">October 23, 2020</div>
+        </button>
+        <div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#Monsters" max-width = 900px>
+             <div class="card-body" max-width = 900px>
+<div class = "d-flex" style="font-family: 'Just Another Hand'; font-size: 30pt; color: black;" >
+
+Research fellows,<br><br>
+
+First of all, I want everyone to acknowledge that it is rude not to pick someone up at the train station when you’ve specifically told them you would. <br><br>
+
+I arrived late last night, but thankfully I was able to hitch a ride to my hotel. From there, most everything in the town is in walking distance, including the house I’ve come to investigate. <br><br>
+
+Speaking of, the couple living there were not expecting me. I was beginning to think this was an elaborate hoax until I told them their son Thomas contacted me to investigate their firewood problem. <br><br>
+
+Despite their strange confusion, they immediately led me to their shed. Next to it would usually be a modest pile of lumber, covered by a tarp to keep it dry. At that moment, there was practically nothing sitting under the tarp, and a trail leading off into the nearby woods. <br><br>
+
+The trail is fresh, considering they brought in a haul just yesterday that disappeared overnight. There are no definitive foot- or paw-prints on either side or in the middle of it, but, now that I'm seeing it in person, I can make out some odd depressions on the side that are hinting towards something. Furthermore, and what I find more interesting, is the fact that it's not even. The depth of the trail shifts in a manner suggesting a pattern. <br><br>
+
+The question now is whether this suggests organizational movement in whatever is collecting this lumber, or something further. <br><br>
+
+And I know what you’re thinking because it’s the same thing I was thinking. Where does the trail lead? <br><br>
+
+Now, this is where it gets strange. It just leads to a clearing full of the firewood that was taken the night before. The Hendersons have assured me that although the location will change every once in a while, they’ll usually find the same thing at the end every morning. <br><br>
+
+I’ve placed a minor tracking spell on the logs we collected from the clearing and put back under the tarp, as well as one along the tree line that’ll alert me to any creatures approaching the shed from the woods. I’ll be camping out nearby overnight to see if I can catch a glimpse of what’s doing this. <br><br><br><br>
+
+              </div>
+
+    </div>
+
+  </div>
+
+        </div>
+        </div>
+<div class="card border-light bg-transparent" style = "max-width: 900px;">
+    <div class="card-header bg-transparent" id="headingOne" max-width = 900px>
+    <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+ <div class = "d-flex justify-content-center" style="font-family: 'Mansalva'; font-size: 40pt; color: black;">Log 3</div>
+     <div class = "d-flex justify-content-start" style="font-family: 'Mansalva'; font-size: 20pt; color: black;">October 23, 2020</div>
+        </button>
+        <div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#Monsters" max-width = 900px>
+         <div class="card-body" max-width = 900px>
+<div class = "d-flex" style="font-family: 'Just Another Hand'; font-size: 30pt; color: black;" >
+
+Alright, so something tripped the spell along the tree line and everything is just gone. There’s nothing under the tarp at all. I’m going to go ask the Hendersons if I can borrow a better flashlight than the one I keep in my backpack before going into the woods. <br><br><br><br>
+              </div>
+        </div>
+        </div>
+       
+       </div>
+              <div class="card border-light bg-transparent" style = "max-width: 900px;">
+    <div class="card-header bg-transparent" id="headingOne" max-width = 900px>
+    <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+ <div class = "d-flex justify-content-center" style="font-family: 'Mansalva'; font-size: 40pt; color: black;">Log 3 Addendum 1</div>
+     <div class = "d-flex justify-content-start" style="font-family: 'Mansalva'; font-size: 20pt; color: black;">October 23, 2020</div>
+        </button>
+        <div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#Monsters" max-width = 900px>
+         <div class="card-body" max-width = 900px>
+             <div class = "d-flex flex-column" style="font-family: 'Just Another Hand'; font-size: 30pt; color: black;" >
+
+I don’t know why, but the Hendersons are vehemently against me going into the woods before dawn. They won’t give me a flashlight, I’m suspicious that they hid my own to try and make me stay, and they were trying to lure me in with baked goods. <br><br>
+                 <img src = "../images/compendium.png">
+             
+              </div>
+            </div>
+        </div>
+                  </div>
+         <div class="card border-light bg-transparent" style = "max-width: 900px;">
+    <div class="card-header bg-transparent" id="headingOne" max-width = 900px>
+    <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+ <div class = "d-flex justify-content-center" style="font-family: 'Mansalva'; font-size: 40pt; color: black;">Log 3 Addendum 2</div>
+    <div class = "d-flex justify-content-center" style="font-family: 'Mansalva'; font-size: 20pt; color: black;">October 23, 2020</div>
+        </button>
+        <div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#Monsters" max-width = 900px>
+         <div class="card-body" max-width = 900px>
+             <div class = "d-flex" style="font-family: 'Just Another Hand'; font-size: 30pt; color: black;" >
+Fortunately, I don’t eat bread after eleven and this thing glows when it’s on.<br><br><br><br>
+              </div>
+            </div>
+        </div>
+             </div>
+                  </div>
+                  
+                  
+         <div class="card border-light bg-transparent" style = "max-width: 900px;">
+    <div class="card-header bg-transparent" id="headingOne" max-width = 900px>
+    <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+ <div class = "d-flex justify-content-center" style="font-family: 'Mansalva'; font-size: 40pt; color: black;">Log 3 Addendum 3</div>
+    <div class = "d-flex justify-content-center" style="font-family: 'Mansalva'; font-size: 20pt; color: black;">October 23, 2020</div>
+        </button>
+        <div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#Monsters" max-width = 900px>
+         <div class="card-body" max-width = 900px>
+             <div class = "d-flex" style="font-family: 'Just Another Hand'; font-size: 30pt; color: black;" >
+My tracking spell is leading me back to the clearing just on the outskirts of the woods. I was able to see some trails that resembled the one I looked at earlier, and whatever I’m following looks to be skirting along the edge of the woods. <br><br><br><br>
+              </div>
+            </div>
+        </div>
+             </div>
+                  </div>
+                  
+         <div class="card border-light bg-transparent" style = "max-width: 900px;">
+    <div class="card-header bg-transparent" id="headingOne" max-width = 900px>
+    <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+ <div class = "d-flex justify-content-center" style="font-family: 'Mansalva'; font-size: 40pt; color: black;">Log 3 Addendum 4</div>
+    <div class = "d-flex justify-content-center" style="font-family: 'Mansalva'; font-size: 20pt; color: black;">October 23, 2020</div>
+        </button>
+        <div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#Monsters" max-width = 900px>
+         <div class="card-body" max-width = 900px>
+             <div class = "d-flex" style="font-family: 'Just Another Hand'; font-size: 30pt; color: black;" >
+I’m at the clearing, and there’s nothing here but the logs! I could’ve sworn I heard something moving around just a minute ago. I feel like I’m losing my mind. I just- <br><br>
+
+Wait a minute… Something’s touching my hand...<br><br>
+-A Scream-<br><br><br><br>
+              </div>
+            </div>
+        </div>
+             </div>
+                  </div>
+        <div class="card border-light bg-transparent" style = "max-width: 900px;">
+    <div class="card-header bg-transparent" id="headingOne" max-width = 900px>
+    <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+ <div class = "d-flex justify-content-center" style="font-family: 'Mansalva'; font-size: 40pt; color: black;">Log 3 Addendum 5</div>
+    <div class = "d-flex justify-content-center" style="font-family: 'Mansalva'; font-size: 20pt; color: black;">October 23, 2020</div>
+        </button>
+        <div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#Monsters" max-width = 900px>
+         <div class="card-body" max-width = 900px>
+             <div class = "d-flex" style="font-family: 'Just Another Hand'; font-size: 30pt; color: black;" >
+So, uh, the logs are bugs. Very, very big bugs. More in the morning. <br><br><br><br>
+              </div>
+            </div>
+        </div>
+             </div>
+                  </div>
+
+<div class="card border-light bg-transparent" style = "max-width: 900px;">
+    <div class="card-header bg-transparent" id="headingOne" max-width = 900px>
+    <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+ <div class = "d-flex justify-content-center" style="font-family: 'Mansalva'; font-size: 40pt; color: black;">Log 4</div>
+    <div class = "d-flex justify-content-center" style="font-family: 'Mansalva'; font-size: 20pt; color: black;">October 24, 2020</div>
+        </button>
+        <div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#Monsters" max-width = 900px>
+         <div class="card-body" max-width = 900px>
+             <div class = "d-flex" style="font-family: 'Just Another Hand'; font-size: 30pt; color: black;" >
+Research fellows,<br><br>
+
+As far as I can tell, almost all of the firewood that the Hendersons have been collecting from the clearings near their property are, in fact, living creatures. I’ve already informed them and they’re working on a new plan for the coming winter.<br><br>
+
+Although the creatures themselves require further study, at this point I can tell you some preliminary information. They are insects, or at least insect-like. Something like a mix between a Roly-Poly, a grub, and a beetle, entirely covered in bark and various plants and fungi. <br><br>
+
+They’re able to hide as regular logs when threatened, but the light from my recording device was enough to attract one last night. <br><br>
+
+I’ll be picking a few items up from the store before beginning my research in earnest. Expect a detailed report on these creatures in a few days.<br><br><br><br>
+              </div>
+            </div>
+        </div>
+             </div>
+                  </div>     
+<div class="card border-light bg-transparent" style = "max-width: 900px;">
+    <div class="card-header bg-transparent" id="headingOne" max-width = 900px>
+    <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+ <div class = "d-flex justify-content-center" style="font-family: 'Mansalva'; font-size: 40pt; color: black;">Log 5: A Research Summary</div>
+    <div class = "d-flex justify-content-center" style="font-family: 'Mansalva'; font-size: 20pt; color: black;">October 30, 2020</div>
+        </button>
+        <div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#Monsters" max-width = 900px>
+         <div class="card-body" max-width = 900px>
+             <div class = "d-flex" style="font-family: 'Just Another Hand'; font-size: 30pt; color: black;" >
+These creatures are fascinating. <br><br>
+		
+	First, the size. The smaller of them stop half-way to the top of my calf, while the larger of them come to the top of my knee. Lengthwise, none of them are shorter than two feet long. <br><br>
+
+	Their carapaces are entirely made of wood. The most common I’ve seen resembles a maple tree, but there is also a hearty mixture of oak and pine. They have large, false eyes just above their smaller black ones, similar to moths and other insects. Their numerous legs appear to be the same substance as aloe leaves. These fall off and grow back similar to some lizard’s tails.<br><br>
+
+I previously mentioned in my last log the other various plants growing on their outer shell.These plants appear to be part of their body. These insects have formed a symbiotic relationship with various herbs, vines, and mushrooms that allow the plants to collect nutrients from the creature, and vice versa. It is my working theory that, during times of long inactivity, these plants will give up their stored nutrients to their host creature. <br><br>
+
+	They are mainly inactive during the day, choosing to bask in the sunlight. At night, they move around the edge of the woods in a pattern, eating things off the forest floor. I went to the local market and procured a variety of items, ranging from organic vegetables to fresh meat to metal spoons. I found that the creatures prefer leafy vegetables, and were quite taken with both spinach and kale. <br><br>
+
+	Now, the most peculiar thing of all is that every plant growing on these medium-dog-sized creatures I have positively identified in my ‘Medicinal Herbs and Their 1001 Uses’ textbook. They’re all local herbs, of course. With enough gifts of food, the creatures allowed me to take a few petal and leaf samples. One even gave me a dried aloe leaf, which is I believe it’s safe to assume was once a leg. I don’t really know how to feel about that.<br><br>
+	
+	Their actions do suggest a level of intelligence higher than the average insect. They recognize me well enough. The exchange of the dried leg for food could be seen as a gift giving action, although other species have participated in the same behaviors. <br><br>
+
+Analysis of the plants shows small traces of magic in the petals and leaves, which isn’t unexpected. They’d be useful for some newer potions, especially considering normal plants imbued with magic are uncommon. The species might have to go on a protected list due to an increased poaching risk. <br><br>
+
+As for a name, I think I’ll call them Pillbugs. They grow medicinal herbs, and they’re bugs, so I think it’s pretty fitting. <br><br>
+
+I’ll continue my observations, but for now, I need to go pick up some more spinach from the store. <br><br><br><br> 
+              </div>
+            </div>
+        </div>
+             </div>
+                  </div> 
+
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+     
+        
+    <script>
+const log = document.querySelector('#log'); // audio object
+const progressBar = document.querySelector('#progress-bar'); // element where progress bar appears
+const background = document.querySelector('#background');
+const logDate = document.querySelector('.log-date'); 
+const logName = document.querySelector('.log-name'); 
+const logSummary = document.querySelector('.log-summary'); 
+let pPause = document.querySelector('#play-pause'); // element where play and pause image appears
+
+
+
+let playing = true;
+function playPause() {
+  if (playing) {
+    pPause.src = "../images/media-pause.svg"; 
+    log.play(); //this will play the audio track
+    playing = false;
+  } else {
+    pPause.src = "../images/media-play.svg" 
+    log.pause();
+    playing = true;
+  }
+}
+logIndex = 0
+logs =
+    ["../audio/Pillbuglog1.mp3",
+     "../audio/Q&AWhereuGoin.mp3",
+    "../audio/Pillbug_Log2.mp3",
+    "../audio/Log3_Addedendum1.mp3",
+    "../audio/Log3_addendum2.mp3",
+    "../audio/Log3_addendum3.mp3",
+    "../audio/Log3_addendum4.mp3",
+    "../audio/Log3_addendum5.mp3",
+     "../audio/Pillbuglog3.mp3",
+     "../audio/Pillbug_Research_Summary.mp3",
+    ];
+
+        
+function nextLog() {
+    logIndex++;
+    if (logIndex > 9) {
+        logIndex = 0;
+    };
+    log.src = logs[logIndex];
+    background.src = sketches[logIndex];
+
+
+
+    playing = true;
+    playPause();
+}
+ function previousLog() {
+    logIndex--;
+    if (logIndex < 0) {
+        logIndex = 1;
+    };
+    log.src = logs[logIndex];
+    background.src = sketches[logIndex];
+    playing = true;
+    playPause();
+}
+        
+function updateProgressValue() {
+  progressBar.max = log.duration;
+  progressBar.value = log.currentTime;
+  document.querySelector('#currentTime').innerHTML =  
+  formatTime(log.currentTime); 
+  document.querySelector('#durationTime').innerHTML =  
+  formatTime(log.duration); 
+};
+     
+function formatTime(seconds) {
+    let min = Math.floor((seconds / 60));
+    let sec = Math.floor(seconds - (min * 60));
+    if (sec < 10){ 
+        sec  = `0${sec}`;
+    };
+    return `${min}:${sec}`;
+};
+     
+setInterval(updateProgressValue, 500);
+
+function changeProgressBar() {
+  log.currentTime = progressBar.value;
+};
+    </script>
+  <script>
+           
+$('[data-toggle="collapse"]').on('mouseenter', function() {
+    $(this).parents('.card').find('.collapse').collapse('show');
+});
+        
+ </script>
+    </body>
+</html>
+
+
+    
+      

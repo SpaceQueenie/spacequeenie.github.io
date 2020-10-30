@@ -1,0 +1,112 @@
+
+font-family: 'Bahiana', cursive;{
+    
+}
+font-family: 'Caesar Dressing', cursive;{
+    
+}
+font-family: 'Mansalva', cursive;{
+    
+}
+font-family: 'Sedgwick Ave Display',cursive;{
+    
+}
+font-family: 'Just Another Hand', cursive;{
+    
+}
+#play-pause {
+    position: absolute;
+    height: 32px;
+    width: 32px;
+    filter: invert(1);
+    cursor: pointer;
+    bottom: 15%;
+    z-index: 4;
+    font-size: 53px;
+    left: 9%;
+}
+
+.currentTime {
+    position: absolute;
+    height: 50px;
+    width: 50px;
+    cursor: pointer;
+    bottom: -7.5%;
+    left: 17%;
+    z-index: 4;
+    font-family: 'Mansalva', cursive;
+    text-decoration: none;
+    font-size: 8px;
+    color: white;
+    align-items: center;
+}
+
+/* style for the total length of the track */
+.durationTime {
+    position: absolute;
+    height: 50px;
+    width: 50px;
+    cursor: pointer;
+    bottom: -1%;
+    right: 11%;
+    z-index: 4;
+    font-family: 'Mansalva', cursive;
+    text-decoration: none;
+    font-size: 8px;
+    align-items: center;
+    color: rgb(193, 255, 6);
+}
+
+#progress-bar {
+    -webkit-appearance: none;
+    appearance: none;
+    position: absolute;
+    z-index: 4;
+    height: 5px;
+    background: transparent;
+    width: 200pt;
+    bottom: 5%;
+    border-radius: 30px;
+    left: 17%;
+}
+
+/* style for the progress bar's slider thumb */
+#progress-bar::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    margin-top: -3px;
+    margin-left: 0px;
+    height: 10px;
+    width: 7px;
+    border: 0;
+    background: black;
+    border-radius: 30px;
+    cursor: pointer;
+}
+
+/* style for the progress bar's runnable track */
+#progress-bar::-webkit-slider-runnable-track {
+    -webkit-appearance: none;
+    appearance: none;
+    cursor: pointer;
+    max-height: 5px;
+    border-radius: 30px;
+}
+
+/* style to remove blue shade of the progress bar when clicked on/selected */
+#progress-bar:focus {
+    outline: none;
+}
+
+.container{
+    width : auto;
+    height: auto;
+}
+.transcript{
+    width : 200;
+    height: auto;
+    padding: 100px;
+    margin: 30px;
+}
+.background{
+    position: absolute;
+}
