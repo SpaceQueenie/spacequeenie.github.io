@@ -110,3 +110,12 @@ font-family: 'Just Another Hand', cursive;{
 .background{
     position: absolute;
 }
+@font-face {
+    font-family: 'besom_2regular';
+    src: url('besom-handwritten-brush-font-webfont.woff2') format('woff2'),
+         url('besom-handwritten-brush-font-webfont.woff') format('woff'),
+         url('besom-handwritten-brush-font-webfont.svg#besom_2regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
