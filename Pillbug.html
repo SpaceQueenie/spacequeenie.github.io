@@ -335,28 +335,28 @@ logs =
 
         
 function nextLog() {
-    logIndex++;
-    if (logIndex > 9) {
-        logIndex = 0;
+   for(i of logs){
+       i++
+    if (i > 9) {
+        i = 0;
     };
-    log.src = logs[logIndex];
-    background.src = sketches[logIndex];
-
-
-
+    log.src = logs[i];
     playing = true;
     playPause();
+       }
 }
+       
  function previousLog() {
-    logIndex--;
-    if (logIndex < 0) {
-        logIndex = 1;
+    for(i of logs){
+       i--
+    if (i < 0) {
+        i = 1;
     };
-    log.src = logs[logIndex];
-    background.src = sketches[logIndex];
+    log.src = logs[i];
     playing = true;
     playPause();
-}
+        }
+ }
         
 function updateProgressValue() {
   progressBar.max = log.duration;
