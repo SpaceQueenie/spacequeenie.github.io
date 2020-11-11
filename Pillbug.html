@@ -334,29 +334,29 @@ logs =
     ];
 
         
-function nextLog() {
-   for(i of logs){
-       i++
-    if (i > 9) {
-        i = 0;
-    };
-    log.src = logs[i];
-    playing = true;
-    playPause();
-       }
-}
+ function nextLog() {
+        if (logIndex >= (logs.length - 1))
+            logIndex = 0;
+        else
+            ++logIndex;
+
+        console.log(logIndex);
+        log.src = logs[logIndex];
+        playing = true;
+        playPause();
+    }
        
- function previousLog() {
-    for(i of logs){
-       i--
-    if (i < 0) {
-        i = 1;
-    };
-    log.src = logs[i];
-    playing = true;
-    playPause();
-        }
- }
+    function previousLog() {
+        if (logIndex == 0)
+            logIndex = 9;
+        else
+            --logIndex
+
+        console.log(logIndex);
+        log.src = logs[logIndex];
+        playing = true;
+        playPause();
+    }
         
 function updateProgressValue() {
   progressBar.max = log.duration;
