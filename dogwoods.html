@@ -12,3 +12,380 @@
 <title>Aster the Witch</title>  
   </head>
   <body style = "background-image: url(../images/backgroundver2.png)">
+<div class = "d-flex flex-column justify-content-start">
+          <div class = "d-flex flex-column justify-content-center">
+    <a href = "compendium.html"><div class = "d-flex justify-content-center col-md offset-md-3" style = "padding: 20px; width = auto;">
+            <img src = "../images/AstertheWitch_backlink.svg" width = auto>
+        </div></a></div>
+          <div class = "d-flex flex-column justify-content-center">
+        <div class = "d-flex">
+            <img src = "../images/Unknown.png" height = 100% width = 100%></div>
+              <div class = "d-flex flex-column justify-content-center" style = "margin: 40px">
+              <div class = "d-flex flex-column justify-content-center">
+         <p style="font-family: 'Just Another Hand'; font-size: 50pt; color: black;">Dogwoods</p>
+                </div>
+            <div class = "d-flex flex-column justify-content-center">
+        <p style="font-family: 'Just Another Hand'; font-size: 30pt; color: black;"></p>
+            </div>
+                  </div>
+     <div class = "d-flex flex-column justify-content-center">
+         <div class = "d-flex flex-column justify-content-center">
+        <div class = "d-flex log-name justify-content-center" style = "font-family: 'Just Another Hand'; font-size: 30pt; color: black; text-decoration: none;"> Research Logs</div>
+        
+          <div class = "d-flex log-date justify-content-center" style = "font-family: 'Just Another Hand'; font-size: 30pt; color: black; text-decoration: none;"> October-November, 2020 </div>
+         </div>
+            <audio src = "../audio/Dogwood_Log1.mp3" id="log">
+            </audio>
+        <div class = "d-flex flex-row justify-content-center">
+     <img src="../images/media-play.svg" height = 32px width = 32px onclick="playPause()" id="play-pause">  
+        
+        <div id="currentTime" style = "font-family: 'Just Another Hand'; font-size: 15pt; color: black; text-decoration: none;"></div>
+<input
+  type="range"
+  id="progress-bar"
+  min="0"
+  max=""
+  value="0"
+  onchange="changeProgressBar()"
+/>
+
+    <div id="durationTime" style = "font-family: 'Just Another Hand'; font-size: 15pt; color: black; text-decoration: none;"></div>
+        <img src = "../images/caret-left.svg" height = 40px width =40px onclick="previousLog()" id="previous-log"> 
+        <img src = "../images/caret-right.svg" height = 40px width = 40px onclick="nextLog()" id="next-log">
+        </div>
+    </div>
+    
+    <p style="font-family: 'Just Another Hand'; font-size: 20pt; color: black;"></p>
+              </div>
+        
+      </div>
+      </div>
+              <div class = "transcript d-flex flex-row justify-content-center align-items-center" style = "margin: 40px">
+
+<div class = "d-flex flex-column justify-content-center flex-nowrap" >
+      <div class = "d-flex justify-content-start" max-width = 900px style = " position: static; max-width = 900px;">
+    <div class="accordion border-dark" id="Monsters">
+    <div class="card border-light bg-transparent" style = "max-width: 900px;">
+    <div class="card-header bg-transparent" id="headingOne" max-width = 900px>
+    <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+     <div class = "d-flex justify-content-start" style="font-family: 'Mansalva'; font-size: 40pt; color: black; text-decoration: none;">Log 1</div>
+     <div class = "d-flex justify-content-start" style="font-family: 'Mansalva'; font-size: 20pt; color: black;">October 30, 2020</div>
+        </button>
+        <div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#Monsters" max-width = 900px>
+             <div class="card-body" max-width = 900px>
+                     <div class = "d-flex flex-column" style="font-family: 'Just Another Hand'; font-size: 30pt; color: black;" >
+
+	I just came out of the store, but I think I might have a lead on another creature. I was hanging around in the vegetable aisle, trying to decide how much spinach would be too much spinach, when I spotted Mr. Henderson. I haven’t actually seen him in a few days, so I decided to go over and say hello.
+	Except that someone else got to him first. Another man, one who I now know is named Phil, walked up to Mr. Henderson and asked if it was still okay to stay over at the Hendersons’ house during the full moon. Mr. Henderson gave a very short yes and continued on his way before I could say anything to him.
+I did get a chance to ask Phil about it. He looked a bit startled at the fact that I didn’t know and stood there with his mouth standing open like a fish. Once he got his wits about him, all he said was, “Stay away from the Davies’ property. Don’t wanna around when Cerberus wakes up.”
+Come on, I’m not passing that up. 
+So, tomorrow’s the full moon. That means that, this Davies property, I need to be there tomorrow night. I’ll just spend tonight looking for it, and we’ll see what we can find tomorrow.
+
+              </div>
+            </div>
+        </div>
+        </div>
+        </div>
+    <div class="card border-light bg-transparent" style = "max-width: 900px;">
+    <div class="card-header bg-transparent" id="headingTwo" max-width = 900px>
+    <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+     <div class = "d-flex justify-content-start" style="font-family: 'Mansalva'; font-size: 40pt; color: black; text-decoration: none;">Log 2</div>
+     <div class = "d-flex justify-content-start" style="font-family: 'Mansalva'; font-size: 20pt; color: black;">October 30, 2020</div>
+        </button>
+        <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#Monsters" max-width = 900px>
+             <div class="card-body" max-width = 900px>
+<div class = "d-flex" style="font-family: 'Just Another Hand'; font-size: 30pt; color: black;" >
+    I’ve just remembered something about Phil that might help me find the Davies property he was talking about! He was wearing a park ranger outfit. What I do know is that, at least in this area, the park rangers usually live on or near the parks they, y’know, range. If he’s staying at the Hendersons tomorrow night, that must mean he’s trying to get away from this Cerberus, and the Davies property. So, it must be on park property near the rangers’ building! 
+    
+    Now if only I knew where that was.
+              </div>
+
+    </div>
+
+  </div>
+
+        </div>
+        </div>
+<div class="card border-light bg-transparent" style = "max-width: 900px;">
+    <div class="card-header bg-transparent" id="headingThree" max-width = 900px>
+    <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+ <div class = "d-flex justify-content-center" style="font-family: 'Mansalva'; font-size: 40pt; color: black;">Log 3</div>
+     <div class = "d-flex justify-content-start" style="font-family: 'Mansalva'; font-size: 20pt; color: black;">October 30, 2020</div>
+        </button>
+        <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#Monsters" max-width = 900px>
+         <div class="card-body" max-width = 900px>
+<div class = "d-flex" style="font-family: 'Just Another Hand'; font-size: 30pt; color: black;" >
+I think I found the rangers house. It’s a house farther in the middle of the woods than any other house and all of the trails I’ve been finding seem to lead me here, so I’m going to say it’s a pretty safe bet. I’ve also been running into a lot of weird trees along the way. I’m not a botanist in any sense of the word, hence why I had to thoroughly research every plant on the Pillbugs using a standard textbook, but these trees don’t look natural. 
+    
+They’re not sickly or dead or even withered. They’ve certainly gotten enough sunlight, despite the thick canopy above, and their bark is healthy. They’re not being over-run by kudzu or honey-suckles or other parasitic plants. Something just seems… off, in the way that they’ve grown. Like when you look at a knot in a tree and you see an eye staring back, or the face of the dead. But it's isn’t just a bit of a tree that I could look away from. Just their presence gives off an intense aura of… of loss? It’s almost like a whole grove of…
+This is a graveyard.
+              </div>
+        </div>
+        </div>
+       
+       </div>
+              <div class="card border-light bg-transparent" style = "max-width: 900px;">
+    <div class="card-header bg-transparent" id="headingFour" max-width = 900px>
+    <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+ <div class = "d-flex justify-content-center" style="font-family: 'Mansalva'; font-size: 40pt; color: black;">Log 4</div>
+     <div class = "d-flex justify-content-start" style="font-family: 'Mansalva'; font-size: 20pt; color: black;">October 30, 2020</div>
+        </button>
+        <div id="collapseFour" class="collapse" aria-labelledby="headingFour" data-parent="#Monsters" max-width = 900px>
+         <div class="card-body" max-width = 900px>
+             <div class = "d-flex flex-column" style="font-family: 'Just Another Hand'; font-size: 30pt; color: black;" >
+    So, I’ve brought out my ‘Botantist’s Handbook Vol. 3’ and found that all of the trees giving off this dreadful aura are dogwoods. The more interesting thing about them is that, despite a few markers that helped me identify them, they look nothing like the dogwoods in the book. Rather than the spindly, flower or leaf covered, relatively small trees I'd have looked for from this description and accompanying picture, these dogwoods look like, well, actual dogs. The flowers, which are dogwood flowers, are growing in bunches like tufts of fur, or ears, or even where collars would be. 
+
+	All of them look like dogs of different breeds, sitting, standing, some even laying down. If there weren't practically dozens scattered around the area, I would say the rangers were taking up topiary. The top of all the trees is the dog’s head.
+	
+	Well, except for with one tree. Behind the ranger’s house, hidden past their ridiculously tall fence that has a convenient hole on the back left side, there is one dogwood tree with three heads. This, I would assume, is Cerberus. I have a lot of questions. Why did these trees grow like this? Why is this one dogwood so different from the others? What will happen tomorrow night under the full moon when Cerberus “wakes up”?
+
+	I don’t want Phil to catch me, so I better get back to the Pillbugs. But mark my words, I will be here tomorrow night. 
+
+              </div>
+            </div>
+        </div>
+                  </div>
+         <div class="card border-light bg-transparent" style = "max-width: 900px;">
+    <div class="card-header bg-transparent" id="headingFive" max-width = 900px>
+    <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+ <div class = "d-flex justify-content-center" style="font-family: 'Mansalva'; font-size: 40pt; color: black;">Log 5</div>
+    <div class = "d-flex justify-content-center" style="font-family: 'Mansalva'; font-size: 20pt; color: black;">October 31, 2020</div>
+        </button>
+        <div id="collapseFive" class="collapse" aria-labelledby="headingFive" data-parent="#Monsters" max-width = 900px>
+         <div class="card-body" max-width = 900px>
+             <div class = "d-flex flex-column" style="font-family: 'Just Another Hand'; font-size: 30pt; color: black;" >
+<div class = "d-flex">
+I made sure Phil arrived at the Hendersons’ house before coming back here. I’m setting up just inside the fence so I can have a clear view of the three-headed tree. Unlike last night, the sky is clear. I’ll be keeping my eyes open for anything as the moon rises.</div>
+                 <div class = "d-flex"><img = src = "../images/cabin.png" height = 600px>
+
+              </div>
+            </div>
+        </div>
+             </div>
+                  </div>
+                  
+                  
+         <div class="card border-light bg-transparent" style = "max-width: 900px;">
+    <div class="card-header bg-transparent" id="headingSix" max-width = 900px>
+    <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
+ <div class = "d-flex justify-content-center flex-nowrap" style="font-family: 'Mansalva'; font-size: 40pt; color: black;">Log 6</div>
+    <div class = "d-flex justify-content-center" style="font-family: 'Mansalva'; font-size: 20pt; color: black;">October 31, 2020</div>
+        </button>
+        <div id="collapseSix" class="collapse" aria-labelledby="headingSix" data-parent="#Monsters" max-width = 900px>
+         <div class="card-body" max-width = 900px>
+             <div class = "d-flex" style="font-family: 'Just Another Hand'; font-size: 30pt; color: black;">
+             I must’ve fallen asleep. Those late nights with the Pillbugs finally caught up to me. But I don’t think anything has happened- 
+	Wait a minute. The dogwood- It’s not there. The tree is gone. How can a tree-
+</div>
+              </div>
+            </div>
+        </div>
+             </div>
+                  </div>
+                  
+         <div class="card border-light bg-transparent" style = "max-width: 900px;">
+    <div class="card-header bg-transparent" id="headingSeven" max-width = 900px>
+    <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseSeven" aria-expanded="false" aria-controls="collapseSeven">
+ <div class = "d-flex justify-content-center" style="font-family: 'Mansalva'; font-size: 40pt; color: black;">Log 7</div>
+    <div class = "d-flex justify-content-center" style="font-family: 'Mansalva'; font-size: 20pt; color: black;">October 31, 2020</div>
+        </button>
+        <div id="collapseSeven" class="collapse" aria-labelledby="headingSeven" data-parent="#Monsters" max-width = 900px>
+         <div class="card-body" max-width = 900px>
+             <div class = "d-flex" style="font-family: 'Just Another Hand'; font-size: 30pt; color: black;" >
+Research fellows,
+
+	I am safe. Although one of the heads was aggressive, I was able to get away due to infighting amongst them. A park ranger by the name of Stella was still in the area overnight and helped lead me out in my state of panic. She gave me a stern warning to not come to the woods at night again. 
+	
+	I will be ignoring this advice. While running from Cerberus, I noticed that other dogwoods touched by the moon’s light had become animated as well. None of them attempted to bite or snap at me on my way back to the main trail, nor seemed aggressive in the slightest. All of this requires further study. 
+
+	I believe my first stop will be to city hall to inquire about what the ‘Davies property’ actually was, and how it became public land. 
+
+              </div>
+            </div>
+        </div>
+             </div>
+                  </div>
+        <div class="card border-light bg-transparent" style = "max-width: 900px;">
+    <div class="card-header bg-transparent" id="headingEight" max-width = 900px>
+    <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseEight" aria-expanded="false" aria-controls="collapseEight">
+ <div class = "d-flex justify-content-center flex-nowrap" style="font-family: 'Mansalva'; font-size: 40pt; color: black;">Log 8</div>
+    <div class = "d-flex justify-content-center flex-nowrap" style="font-family: 'Mansalva'; font-size: 20pt; color: black;">November 13, 2020</div>
+        </button>
+        <div id="collapseEight" class="collapse" aria-labelledby="headingEight" data-parent="#Monsters" max-width = 900px>
+         <div class="card-body" max-width = 900px>
+             <div class = "d-flex flex-column flex-nowrap" style="font-family: 'Just Another Hand'; font-size: 30pt; color: black;">
+               <div class = "d-flex">  I’ve been combing through the archives at City Hall for the past two weeks and I think I finally found something substantial. The cabin that now houses the park rangers for their day to day activities once belonged to John “Davies” Davidson. He purchased the lot it stands on in February of 1924 and lived there until his death.
+
+From what I can find about him, Davies was a peculiar man. He seemed to be quite popular around the town, if only to catalogue his eccentricities. He was one of the lucky soldiers to return from the war, but came back with a permanent and prominent limp that forced him to use a variety of canes and walking sticks. The most interesting one I’ve seen in pictures had a carved vulture head at the top. 
+
+The man always had his dogs with him, a pack of three large hounds named Baby Ruth, Butterfingers, and Goober. Apparently, they were the only survivors from a litter of puppies a friend had and when he brought them over for Davies during the construction of his cabin, they were also destined to remain until their deaths.
+
+He went so far as to post an obituary in the paper when the entire pack died. </div>
+
+ <div class = "d-flex">  <img src = "../images/Dogs_Obituaryver2.png" height = 500px></div>
+    
+
+ <div class = "d-flex"> 
+I believe a few aspects of this obituary, in combination with several other documents, shed light on the Cerberus situation.
+The obituary states that “Davies’ beloved dogs died as they lived; together” and makes mention of a memorial for the animals. Combining this with an ad that a man put out asking for a dogwood sapling to plant just a week prior in the classifieds of the same newspaper, as well as the story of a wild animal biting one of his dogs a few months before, we can come to a few conclusions.</div>
+ <div class = "d-flex"> <img src = "../images/Classifieds.png" height = 600px></div>
+                
+
+	  <div class = "d-flex">At least one of his dogs became rabid, and died. For some reason, the others followed suit. 
+
+	Now, how did the Davies property become public land? That I’m still trying to figure out.
+                 </div>
+
+            <div class = "d-flex">
+	As for Davies, shortly after he wrote an obituary for his dogs, the town wrote one for him. I’ve been trying to find any sort of death certificate or autopsy report indicating his cause of death, but I’ve come up with nothing so far. I’ve also found no articles reporting on the fact that the cabin was left to or seized by the government. 
+          </div>
+            <div class = "d-flex">
+                <img src = "../images/Davies_Obituaryver2.png" height = 600px></div>
+          <div class = "d-flex">
+          I’ll be going back in a few days to spend both the day and night there. I’ll collect a few soil, bark, and leaf samples to run some tests on, as well as monitor the trees in the area under the moonlight. I'm going to try and corner Phil the next time I see him and ask him a few questions. I also need to track down that Stella girl again. I feel like she’s avoiding town altogether. </div>
+
+ 
+              </div>
+            </div>
+        </div>
+             </div>
+                  </div>
+
+<div class="card border-light bg-transparent" style = "max-width: 900px;">
+    <div class="card-header bg-transparent" id="headingNine" max-width = 900px>
+    <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseNine" aria-expanded="false" aria-controls="collapseNine">
+ <div class = "d-flex justify-content-center" style="font-family: 'Mansalva'; font-size: 40pt; color: black;">Log 9</div>
+    <div class = "d-flex justify-content-center" style="font-family: 'Mansalva'; font-size: 20pt; color: black;">November 13, 2020</div>
+        </button>
+        <div id="collapseNine" class="collapse" aria-labelledby="headingNine" data-parent="#Monsters" max-width = 900px>
+         <div class="card-body" max-width = 900px>
+             <div class = "d-flex flex-column" style="font-family: 'Just Another Hand'; font-size: 30pt; color: black;" >
+                 <div class = "d-flex">
+Research Fellows,
+
+	Phil is actively avoiding me. He knows I’ve been digging around, and is evading any attempts I make at a conversation. I guess I’ll have to force him into a corner when I go to the cabin tomorrow. Also, everyone I’ve asked in town has told me they don’t know any park ranger named Stella. I doubt she’s new in town due to her reaction to the trees. Maybe she doesn’t come around often? 
+
+Just one more thing to ask Phil, I guess.
+
+                     Anyway, I was able to find the coroner’s report for Davies. </div>
+                   <div class = "d-flex">
+                <img src = "../images/John_Davidson_Autopsy.png" height = 600px></div>
+                 <div class = "d-flex">
+The official cause of death is… Well, it’s rabies. He was bitten by a dog, his dog, on his leg. 
+
+The thing is, the bite was partially healed by the time he died. Even with the discomfort it caused, and him clearly reopening parts the wound by scratching it, it was closing well. He also died months after his hounds, well enough time for a dog bite to heal and be treated. 
+
+More than enough time to be treated for a rabid animal bite.
+
+	I can only make a guess as to what this man was thinking, not asking for treatment for a bite from his own dog, one he knew might be rabid. But my guess would be that these dogs were the light of his life, and he loved them enough to possibly die for them.
+
+                     In the end, I guess he did. </div>
+
+              </div>
+            </div>
+        </div>
+             </div>
+                  </div>
+        </div>
+          </div>
+    </div>
+                  </div>
+    </div>
+
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+     
+        
+    <script>
+const log = document.querySelector('#log'); // audio object
+const progressBar = document.querySelector('#progress-bar'); // element where progress bar appears
+const background = document.querySelector('#background');
+const logDate = document.querySelector('.log-date'); 
+const logName = document.querySelector('.log-name'); 
+const logSummary = document.querySelector('.log-summary'); 
+let pPause = document.querySelector('#play-pause'); // element where play and pause image appears
+
+
+
+let playing = true;
+function playPause() {
+  if (playing) {
+    pPause.src = "../images/media-pause.svg"; 
+    log.play(); //this will play the audio track
+    playing = false;
+  } else {
+    pPause.src = "../images/media-play.svg" 
+    log.pause();
+    playing = true;
+  }
+}
+
+logIndex = 0
+
+logs =
+    ["../audio/Dogwood_Log1.mp3",
+     "../audio/Dogwood_Log2.mp3",
+     "../audio/Dogwood_Log3.mp3",
+     "../audio/Dogwood_Log4.mp3",
+     "../audio/Dogwood_Log5.mp3",
+     "../audio/Dogwood_Log6.mp3",
+     "../audio/Dogwood_Log7.mp3",
+     "../audio/Dogwood_Log8.mp3",
+     "../audio/Dogwood_Log9.mp3",
+    ];
+        
+        
+ function nextLog() {
+        if (logIndex >= (logs.length - 1))
+            logIndex = 0;
+        else
+            ++logIndex;
+
+        console.log(logIndex);
+        log.src = logs[logIndex];
+        playing = true;
+        playPause();
+    }
+       
+    function previousLog() {
+        if (logIndex == 0)
+            logIndex = 9;
+        else
+            --logIndex
+
+        console.log(logIndex);
+        log.src = logs[logIndex];
+        playing = true;
+        playPause();
+    }
+        
+function updateProgressValue() {
+  progressBar.max = log.duration;
+  progressBar.value = log.currentTime;
+  document.querySelector('#currentTime').innerHTML =  
+  formatTime(log.currentTime); 
+  document.querySelector('#durationTime').innerHTML =  
+  formatTime(log.duration); 
+};
+     
+function formatTime(seconds) {
+    let min = Math.floor((seconds / 60));
+    let sec = Math.floor(seconds - (min * 60));
+    if (sec < 10){ 
+        sec  = `0${sec}`;
+    };
+    return `${min}:${sec}`;
+};
+     
+setInterval(updateProgressValue, 500);
+
+function changeProgressBar() {
+  log.currentTime = progressBar.value;
+};
+    </script>
+  <script>
+        
+ </script>
+    </body>
+</html>
