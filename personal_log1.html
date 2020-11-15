@@ -1,0 +1,145 @@
+<doctype html>
+
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    
+    <link rel = "stylesheet" href = "style.css">
+    
+   <link href="https://fonts.googleapis.com/css2?family=Bahiana&family=Caesar+Dressing&family=Just+Another+Hand&family=Mansalva&family=Sedgwick+Ave+Display&display=swap" rel="stylesheet">
+      
+<title>Personal Logs</title> 
+  </head>
+    <body style = "background-image: url(../images/backgroundver2.png)">
+<div class = "d-flex flex-column justify-content-center" >   
+ <a href = "index.html"><div class = "d-flex justify-content-center col-md offset-md-3">
+            <img src = "../images/AstertheWitch_homelink.svg" width = 30% style = "padding: 10px">
+        </div></a>
+     <div class = "d-flex flex-row align-items-center">
+<div class = "d-flex justify-content-start align-items-top" height = 900px>
+    <div class="accordion width" id="table-content">
+    <div class="card border-light bg-transparent">
+    <div class="card-header bg-transparent" id="headingTwo">
+    <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+          <p style = "text-decoration: none; font-family: 'Just Another Hand'; font-size: 40pt; color: black;">  LOGS</p>
+        </button>
+        <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#table-content">
+             <a href = "personal_logs.html"><p style = "font-family: 'Just Another Hand'; font-size: 20pt; color: black;">Open Research Call</p></a>
+            <a href = "personal_log1.html"><p style = "font-family: 'Just Another Hand'; font-size: 20pt; color: black;">Log 1 </p></a>
+  </div>
+        </div>
+        </div>
+    </div>
+         </div>
+<div class = "d-flex flex-column offset-md-2">
+<div class="accordion d-flex" id = "audio_logs">
+  <div class="card border-light bg-transparent">
+    <img src = "../images/compendium.png" max-height = 600px max-width = 600px class = "card-img-top">
+    <div class="card-header bg-transparent">
+        
+         <a>
+        <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+        <audio id = "log" src = "../audio/PersonalLog1.mp3"></audio>
+    <div class = "d-flex flex-row justify-content-center">
+        
+     <img src="../images/media-play.svg" height = 32px width = 32px onclick="playPause()" id="play-pause">  
+        
+        <div id="currentTime" style = "font-family: 'Just Another Hand'; font-size: 15pt; color: black; text-decoration: none;"></div>
+<input
+  type="range"
+  id="progress-bar"
+  min="0"
+  max=""
+  value="0"
+  onchange="changeProgressBar()"
+/>
+    <div id="durationTime" style = "font-family: 'Just Another Hand'; font-size: 15pt; color: black; text-decoration: none;"></div>
+            </div>
+        </button> 
+             </a>
+    </div>
+    <p style="font-family: 'Just Another Hand'; font-size: 30pt; color: black;">Stella: Real or Not?</p>
+    <p style="font-family: 'Just Another Hand'; font-size: 20pt; color: black;">November 15, 2020</p>
+    <div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#audio_logs">
+      <div class="d-flex justify-content-center card-body" width = auto>
+        <p style = "font-family: 'Just Another Hand'; font-size: 30pt; color: black;">
+Phil, the Park Ranger, told me that there’s no one working in his department named Stella. He also told me that no one would be crazy enough to be around Cerberus on the night of the full moon, and not to try it again. <br><br>
+
+	That's not the point here, though. <br><br>
+
+	The point is that I met a woman who the entire town she supposedly lives in and her supposed employer says does not exist. I didn’t meet her in any malicious context, no, in fact she saved me. <br><br>
+
+	It’s just that she lied to me about her status as an official and her name and everything about herself in a moment of vulnerability. <br><br>
+    
+    I didn’t see Stella again last night, but as I was leaving this morning I heard one of the rangers mumbling about missing a uniform from inventory. So...<br><br>
+</p>
+        </div>
+      </div>
+    </div>
+    </div>
+    </div>
+         </div>
+    </div>
+        </div>
+         </div>
+    </div>
+        </div>
+        
+        
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+        
+        <script>
+const log = document.querySelector('#log'); // audio object
+const progressBar = document.querySelector('#progress-bar'); // element where progress bar appears
+let pPause = document.querySelector('#play-pause'); // element where play and pause image appears
+
+
+let playing = true;
+function playPause() {
+  if (playing) {
+    pPause.src = "../images/media-pause.svg"; 
+    log.play(); //this will play the audio track
+    playing = false;
+  } else {
+    pPause.src = "../images/media-play.svg" 
+    log.pause();
+    playing = true;
+  }
+}
+        
+function updateProgressValue() {
+  progressBar.max = log.duration;
+  progressBar.value = log.currentTime;
+  document.querySelector('#currentTime').innerHTML =  
+  formatTime(log.currentTime); // See lines 85-92 for MM:SS formatting
+  document.querySelector('#durationTime').innerHTML =  
+  formatTime(log.duration); // See lines 85-92 for MM:SS formatting
+};
+     
+function formatTime(seconds) {
+    let min = Math.floor((seconds / 60));
+    let sec = Math.floor(seconds - (min * 60));
+    if (sec < 10){ 
+        sec  = `0${sec}`;
+    };
+    return `${min}:${sec}`;
+};
+     
+setInterval(updateProgressValue, 500);
+
+function changeProgressBar() {
+  log.currentTime = progressBar.value;
+};
+    </script>
+        
+        
+
+    </body>
+    </html>
